@@ -1,0 +1,28 @@
+class Student {
+  constructor(name, grades) {
+    this.name = name;
+    this.grades = grades;
+  }
+  getGrades() {
+    return this.grades;
+  }
+  setGrades(newGrades) {
+    this.grades = newGrades;
+  }
+
+  //method that recieve a visitor function to modify in the caller object 
+  accept(visitor) {
+    visitor(this);
+  }
+}
+
+//The Visitor function
+const DoubleGrades = (student) => {
+    student.setGrades(student.getGrades()*2);
+};
+
+let s = new Student("Eslam", 300);
+console.log(s);
+
+s.accept(DoubleGrades);
+console.log(s);
