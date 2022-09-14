@@ -1,0 +1,27 @@
+<h1>hello</h1>
+<p>
+  After more than thirty years of service as one of the Navy's top aviators,
+  Pete Mitchell is where he belongs, pushing the envelope as a courageous test
+  pilot and dodging the advancement in rank that would ground him.
+</p>
+<p>Enter Your Movie Name</p>
+<!-- <input type="text" value="Ahmed" />
+<input type="text" value="{{ username }}" />
+
+<!-- one way bindiong-->
+<!-- <input type="text" [value]="username" />
+<input type="button" value="change username" (click)="changeuserName()" /> -->
+
+<!--templete expression-->
+<!-- <p>{{ username }}</p> -->
+<!-- <img
+  src="https://images.unsplash.com/photo-1648737967037-96967e9151b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+/> -->
+
+<!--two way binding-->
+<input
+  type="text"
+  placeholder="Enter your Movie Name Here "
+  [(ngModel)]="username"
+/>
+<input type="button" value="Reset" (click)="changeuserName()" />

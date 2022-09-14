@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: black;
+}
+img {
+  width: 3%;
+  height: 40vw;
+  background-color: red;
+}
+input[type="button"] {
+  width: 13vw;
+  border-color: red;
+  border: 2px solid red;
+  border-radius: 2px;
+}

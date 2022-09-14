@@ -1,0 +1,11 @@
+img {
+  width: 3%;
+  height: 40vw;
+  background-color: red;
+}
+button {
+  width: 13vw;
+  border-color: red;
+  border: 2px solid red;
+  border-radius: 2px;
+}

@@ -1,0 +1,11 @@
+<p>secound works!</p>
+<div class="slideshow-container" #myDiv>
+  <div class="mySlides fade">
+    <img [src]="myimg" style="width: 100%" />
+    <div class="text">Caption Text</div>
+    <input type="button" value="change" (click)="changeimg()" />
+    <input type="button" value="next" (click)="next()" />
+    <input type="button" value="previous" (click)="previous()" />
+    <input type="button" value="stop" (click)="stop()" />
+  </div>
+</div>
